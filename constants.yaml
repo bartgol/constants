@@ -1,0 +1,38 @@
+version: 0.0
+description: Fundamental mathematics and physics constants relevant for Earth System Models
+
+constants:
+  mathematics:
+    - name: pi
+      symbol: pi
+      value: 3.141592653589793238462643
+      units: none
+      descritpion: |
+        The ratio of the circumference of a circle to its diameter. Several other definitions
+        also apply, all being equivalent. E.g., the ratio of a circle area to the square of
+        its radius.
+  physics:
+    - name: speed of light
+      symbol: c
+      value: 299792458
+      units: m s^-1
+      description: |
+        The speed at which electromagnetic waves propagate in vacuum, commonly referred
+        to as the speed of light in vacuum.
+    - name: Boltzmann's constant
+      symbol: k_b
+      value: 1.3806485279e-23
+      units: J K^-1
+      description: |
+        Boltzmann's constant, relating average kinetic energy of particles in a gas
+        with the temperature of the gas.
+
+  geophisics:
+    - name: Earth's radius
+      symbol: R
+      value: 6371000
+      units: m
+      description: |
+        The average radius of the Earth when considering its shape as a spheroid,
+        calculated from measurements at various points of Earth's surface.
+
